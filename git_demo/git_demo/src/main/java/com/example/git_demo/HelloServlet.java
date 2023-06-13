@@ -14,6 +14,7 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
        System.out.println("Hello Servlet");
+        System.out.println("Java修改了");
         System.out.println("Tom修改的内容");
         response.setContentType("text/html");
 
